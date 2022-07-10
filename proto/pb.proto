@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "github.com/KennyChenFight/protogen-demo/proto";
+
+message Hello {
+  string greeting = 1;
+}
